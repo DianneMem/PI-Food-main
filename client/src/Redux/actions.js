@@ -5,7 +5,7 @@ const url = 'http://localhost:3001'
 export function getAllRecetas() {
     return async function (dispatch) {
         try {
-            const res = await axios.get(`${url}/recetas`, {
+            const res = await axios.get(`/recetas`, {
 
             })
             return dispatch({
@@ -21,7 +21,7 @@ export function getAllRecetas() {
 export function getDietas() {
     return async function (dispatch) {
         try {
-            const dietas = await axios.get(`${url}/dietas`)
+            const dietas = await axios.get(`/dietas`)
             return dispatch({
                 type: 'GET_DIETAS',
                 payload: dietas.data
@@ -35,7 +35,7 @@ export function getDietas() {
 export function getRecetasByName(name) {
     return async function (dispatch) {
         try {
-            const searchName = await axios.get(`${url}/recetas?name=${name}`)
+            const searchName = await axios.get(`/recetas?name=${name}`)
             return dispatch({
                 type: 'GET_RECETAS_BY_NAME',
                 payload: searchName.data
@@ -50,7 +50,7 @@ export function getRecetasByName(name) {
 export function getRecetasDetails(idReceta) {
     return async function (dispatch) {
         try {
-            const recetasDetails = await axios.get(`${url}/recetas/${idReceta}`)
+            const recetasDetails = await axios.get(`/recetas/${idReceta}`)
             return dispatch({
                 type: 'GET_RECETAS_DETAILS',
                 payload: recetasDetails.data
@@ -79,7 +79,7 @@ export function filterByDiets(payload) {
 export function createRecetas(payload) {
     return async function (dispatch) {
         try {
-            let result = await axios.post(`${url}/recetas/create`, payload);
+            let result = await axios.post(`/recetas/create`, payload);
     
             if (result.error) return alert(result.error);
             console.log(result);
