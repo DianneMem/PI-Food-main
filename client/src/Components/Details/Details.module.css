@@ -1,0 +1,58 @@
+.containerTotal {
+    padding: 20px;
+    color: black;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../../images/fondoTabla.jpg);
+    background-size: 100% 720px;
+    
+}
+
+.containerImagePts{
+    display: flex;
+    gap: 20px;
+}
+
+.containerImagePts p {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: red;
+}
+
+.imagen {
+    margin-top: 10px;
+    width: 30%;
+    height: 40vh;
+    margin: 0 10px;
+}
+
+.containerTotal h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+
+.types {
+    display: flex;
+    gap: 10px;
+}
+.puntuacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 300px;
+
+}

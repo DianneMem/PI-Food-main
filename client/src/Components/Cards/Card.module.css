@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: navajowhite;
+    opacity: 0.8;
+    background-attachment: fixed;
+    border-color: #b9b9b9;
+    color: #2e2e2e;
+    width: 280px;
+    height: 320px;
+    padding: 10px;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.imagen :hover {
+    transform: scale(1.4);
+}
+
+
+
+.imagen img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.nombre {
+    font-size: 20px;
+    font-weight: 600;
+    color: #194345;
+}
+
+.dietas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #005542
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e36414;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;  
+    
+
+
+}

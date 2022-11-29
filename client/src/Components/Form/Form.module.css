@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: navajowhite;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.items {
+    width: 32%;
+    display: flex;
+    background-color: #f79d65;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 18px;
+    margin-bottom: 16px;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.items2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.items2 .items{
+    width: 48%;
+}
+
+.items input {
+    width: 100%;
+    height: 22px;
+    border: none;
+    outline: none;
+
+}
+
+.items textarea {
+    margin-top: 5px;
+    height: 150px;
+    resize: none;
+}
+
+.button {
+    width: 100%;
+}
+
+.button button {
+    width: 100%;
+    background-color: #8e3e0c96;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.button button:hover {
+    background-color: #f07a30;
+}
+
+.containerDietasSeleccionadas {
+    height: 130px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 8px;
+    background-color: #8e3e0c96;
+}
+
+.dieta {
+    width: auto;
+    padding: 5px;
+    height: 30px;
+    background-color: #fda065;
+    border-radius: 8px;
+}
+
+.dieta:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}

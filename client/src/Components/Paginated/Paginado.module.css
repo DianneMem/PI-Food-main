@@ -1,0 +1,37 @@
+.paginated {
+    margin: 35px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto {
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.items {
+    border-radius: 15px;
+    margin-right: 10px;
+    border-color: transparent;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+    background-color: #e06925;
+    color: white;
+
+}
+
+.items:hover {
+    transform: scale(2.3);
+
+}
+
+
+.pages {
+    font-weight: 600;
+    letter-spacing: 1px;
+}

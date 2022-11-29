@@ -1,0 +1,33 @@
+.navBar {
+    width: 100%;
+    height: 40px;
+    background-color: #52b69a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navBar h1{
+    margin: 0;
+    color: white;
+}
+
+.navBar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 8px;
+    margin-right: 5px;
+}
+
+.navBar ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navBar ul a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}

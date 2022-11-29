@@ -1,0 +1,49 @@
+.contenedorHome {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/fondoTabla.jpg);
+    background-size: 100% 720px;
+    
+}
+
+.contenedorFiltros {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e36414;
+    height: 40px;
+    color: white;
+}
+
+.contenedorCards {
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.paginado {
+    height: 50px;
+}
+
+.items select {
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.reload {
+    width: 30px;
+}
+
+.reload:hover {
+    transform: rotate(120deg);
+    cursor: pointer;
+}
