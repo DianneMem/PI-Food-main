@@ -1,7 +1,7 @@
 .contenedor {
     position: relative;
     text-align: center;
-    background-image: url(../../images/fondoPasta.jpg);
+    background-image: url(../../images/chef.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -17,17 +17,17 @@
 .contenedor h1 {
     font-size: 100px;
     font-family: verdana;
-    color: #faedcd;
-    text-shadow: 1px 0px 0px black,
-        0px 1px 0px black,
-        -1px 0px 0px black,
-        0px -1px 0px black;
+    color: #d8a48f;
+    text-shadow: 1px 0px 0px #ce4257,
+        0px 1px 0px #ce4257,
+        -1px 0px 0px #ce4257,
+        0px -1px 0px #ce4257;
     margin: 0;
 }
 
 .Bienvenida {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@
 }
 
 .button {
-    width: 10%;
+    width: 20%;
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
@@ -53,12 +53,12 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #bb8588;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px #ce4257;
     position: absolute;
-    left: 45vw;
+    left: 20vw;
     right: 55vw;
 }
 
@@ -68,11 +68,11 @@
 }
 
 .button:hover {
-    background-color: #3e8e41
+    background-color: #bb8588
 }
 
 .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
+    background-color: #d8a48f;
+    box-shadow: 0 5px #ce4257;
     transform: translateY(4px);
 }
