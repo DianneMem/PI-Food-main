@@ -58,7 +58,10 @@
     padding: 10px;
     text-align: center;
     text-decoration: none;  
-    
+    overflow: hidden;
 
+}
 
+.button :hover{
+    transform: scale(1.4);
 }

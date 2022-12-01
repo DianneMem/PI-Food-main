@@ -68,7 +68,9 @@
 }
 
 .button:hover {
-    background-color: #bb8588
+    background-color: #bb8588de;
+    transform: scale(1.1);
+
 }
 
 .button:active {
